@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header{
+    width: 100%;
+    margin-top: -180px;
+    position: relative;
+    background-image: url(Design\ sem\ nome\ \(98\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo{
+    margin-left: -110px;
+    margin-top: 140px;
+    
+}
+.menu li {
+    display: inline-block;
+    margin: 40px 0px;
+    margin-top: 140px
+}
+.menu li a{
+    font-size: 27px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 -5px;
+    text-transform:uppercase;
+    background-color: #ba53cf;
+    border-radius: 20px;
+    padding: 10px 15px;
+
+}
+.menu li a:hover{
+background-color: #932ba8;
+
+}
+.usuario{
+    margin-top: 140px
+}

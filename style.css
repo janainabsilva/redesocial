@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(Design\ sem\ nome\ \(95\).jpg);
+    background-size: cover;
+}
+header{
+   margin-top: 0;
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-image: url(Design\ sem\ nome\ \(98\).jpg);
+}
+.logo{
+    height: 380px;
+    width: 380px;
+}
+.fotousuario{
+    height: 120px;
+    width: 120px;
+}
+header input{
+    margin-left: 80px;
+    height: 100px;
+    width: 150px;
+    padding: 0px 40px;
+    border-radius: 23px;
+    text-align: center;
+    background-color: rgb(182, 140, 222);
+    border:none;
+    box-shadow: 0px 4px 4px 0px rgb(165, 93, 232);
+    font-size: 26px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input:focus{
+    outline: none;
+
+}
+input::placeholder{
+    color: #ffff;
+}
+.card
+{
+    width: 650px;
+    height: fit-content;
+    padding: 15px;
+    align-self: center;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 1px -2px 25px 3px #f6f6f6;
+}
+.insta-card img{
+    height: 200px;
+    width: 200px;
+    margin-top: -35px;
+    margin-left: -40px;
+}
+.insta-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.insta-card p{
+    margin-top: -40px;
+    margin-left: -40px;
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.insta-card .title-icon{
+    margin-left: 180px;
+}
+.insta-img{
+    margin-top: -20px;
+    height: 600px;
+    width: 679px;
+    margin-left: -14px;
+}
+.reacoes{
+    height: 37px;
+    width: 37px;
+    padding: 12px;
+}
+
+.like-item{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.comment h1{
+    padding:20px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.comment h2{
+    font-size: 26px;
+    padding:20px;
+    margin-top: -27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comment p{
+    font-size: 26px;
+    padding:20px;
+    margin-top: -25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box img{
+margin-top: -50px;
+ height: 38px;
+ width: 38px;
+}
+.addcomentario{
+    border: none;
+    background-color: rgb(168, 147, 213);
+    border-radius: 15px;
+    box-shadow: 1px -2px 25px 3px #f6f6f6;
+    padding: 16px 70px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 90%;
+    padding: 30px;
+}
+
+
